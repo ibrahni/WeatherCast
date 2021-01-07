@@ -54,5 +54,25 @@
                 {"21" : 14}
             ]
         }
-    ]
+    ],
+    "city" : {
+        "name" : "Fes",
+        "wind" : {
+            "speed" : 1.5
+        },
+        "sunrise" : 1609745157,
+        "sunset": 1609781021,
+        "temperature":{
+            "min":284.15,
+            "max":284.15,
+            "now":284.15, 
+            "description" : "few clouds",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        },
+        "coordination" : {
+            "longitude" : -5,
+            "latittude" : 34.04
+        },
+        "humidity": 53
+    }
 }
