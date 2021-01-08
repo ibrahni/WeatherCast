@@ -1,61 +1,4 @@
 {
-    "cities" : [
-        {
-            "name" : "Fes",
-            "degree" : "15",
-            "sunraise" : "7:30",
-            "sunset" : "18:30",
-            "humidity" : "4",
-            "wind": "10",
-            "week":[
-                {
-                    "day" : "Friday",
-                    "high" : 24,
-                    "low" : 10
-                },
-                {
-                    "day" : "Saturday",
-                    "high" : 24,
-                    "low" : 10
-                },
-                {
-                    "day" : "Sunday",
-                    "high" : 24,
-                    "low" : 10
-                },
-                {
-                    "day" : "Monday",
-                    "high" : 24,
-                    "low" : 10
-                },
-                {
-                    "day" : "Tuesday",
-                    "high" : 24,
-                    "low" : 10
-                },
-                {
-                    "day" : "Wednesday",
-                    "high" : 24,
-                    "low" : 10
-                }
-            ],
-            "hours":[
-                {"10" : 24},
-                {"11" : 25},
-                {"12" : 25},
-                {"13" : 26},
-                {"14" : 26},
-                {"15" : 26},
-                {"16" : 25},
-                {"17" : 24},
-                {"18" : 22},
-                {"19" : 20},
-                {"20" : 14},
-                {"21" : 14}
-            ]
-        }
-    ],
-    "city" : {
         "name" : "Fes",
         "wind" : {
             "speed" : 1.5
@@ -74,5 +17,4 @@
             "latittude" : 34.04
         },
         "humidity": 53
-    }
 }

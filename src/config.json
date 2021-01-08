@@ -1,0 +1,11 @@
+{
+    "OPEN_WEATHER_API" :{
+        "HOST" : "https://api.openweathermap.org/data/2.5",
+        "API_KEY": "&appid=96414c4d2f0f34c172ae862749bb23e4",
+        "WEATHER":{
+            "BY_NAME" : "/weather?q={name}",
+            "BY_GEO"  : "/weather?lat={lattiude}&lon={longitude}",
+            "BY_ZIP_CODE" : "/weather?zip={zipCode},{countryCode}"
+        }
+    }
+}
