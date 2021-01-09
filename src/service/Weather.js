@@ -2,6 +2,10 @@ class Weather{
     setName(name){
         this.name = name;
     }
+
+    setCountry(country){
+        this.country = country;
+    }
     setHumidity(humidity){
         this.humidity = humidity;
     }

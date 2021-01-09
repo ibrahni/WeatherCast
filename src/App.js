@@ -11,6 +11,14 @@ import   WeatherComponent  from "./component/WeatherComponent/WeatherComponent";
 class App extends React.Component {
   state = {selectedCity: '', weather : data}
   
+  componentDidMount(){
+    console.log("didmount");
+    this.setState({selectedCity:'Rabat'},function(){
+      this.handleSelectedCity(this.state.selectedCity)
+    });
+
+  }
+
   handleSelectedCity = (cityValue) => {
     this.setState({selectedCity : cityValue }, function() {
       weatherService.retrieveByName(this.state.selectedCity).then((res) => {
