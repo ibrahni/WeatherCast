@@ -1,5 +1,8 @@
+import './SearchComponent.css'
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
+import ListGroup from 'react-bootstrap/ListGroup';
+import cities from 'cities.json'
 import React from 'react';
 
 class SearchComponent extends React.Component {
@@ -8,6 +11,7 @@ class SearchComponent extends React.Component {
         super(props);
         this.state = {
           cityName: '',
+          suggestedCities: []
         };
     }
 
@@ -19,7 +23,12 @@ class SearchComponent extends React.Component {
     handleCityName(event) {
         this.setState({
             cityName: event.target.value,
+            suggestedCities: this.searchForRelatedCities(event.target.value)
         });
+    }
+
+    searchForRelatedCities(start){
+        return start && cities.filter(city => city.name.toUpperCase().startsWith(start.toUpperCase())).slice(0,10)
     }
 
     render(){
@@ -28,7 +37,19 @@ class SearchComponent extends React.Component {
                 <FormControl type="text" placeholder="City..." 
                   value={this.state.cityName}   
                   onChange={this.handleCityName.bind(this)}
-                  className="mr-sm-2" />
+                  className="mr-sm-2 autocomplete" />
+                  {
+                      this.state.suggestedCities && 
+                      (
+                        <ListGroup>
+                            { this.state.suggestedCities.map(
+                                (element, i) => {
+                                    return <ListGroup.Item key={i}>{element.name}, {element.country}</ListGroup.Item>
+                                })
+                            }
+                        </ListGroup>
+                      )
+                  }
             </Form>
         );
     }

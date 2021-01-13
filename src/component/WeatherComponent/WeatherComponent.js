@@ -1,7 +1,9 @@
 import  React  from "react";
 import Card from 'react-bootstrap/Card'
 import './WeatherComponent.css'
-import { Col, Row } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
+
 class WeatherComponent extends React.Component {
     render(){
         return (

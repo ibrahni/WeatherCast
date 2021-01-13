@@ -5,8 +5,11 @@ import Container  from 'react-bootstrap/Container';
 import weatherService from '../src/service/ServiceConfiguration'
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import  React  from "react";
-import   WeatherComponent  from "./component/WeatherComponent/WeatherComponent";
+import React from "react";
+import WeatherComponent from "./component/WeatherComponent/WeatherComponent";
+import HourlyWeatherComponent from './component/HourlyWeatherComponent/HourlyWeatherComponent';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class App extends React.Component {
   state = {selectedCity: '', weather : data}
@@ -42,6 +45,10 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
           <WeatherComponent  city={this.state.weather}/>
+          <Row>
+            <Col className="mt-2" ><HourlyWeatherComponent/></Col>
+            <Col></Col>
+          </Row>
       </Container>
     );
   }
