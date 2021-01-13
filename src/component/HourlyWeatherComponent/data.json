@@ -1,42 +1,7 @@
 [
-    {
-        "dt": 20,
-        "temperature" : {
-            "now": 8,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
-        }
-    },
-    {
-        "dt": 21,
-        "temperature" : {
-            "now": 9,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
-        }
-    },
-    {
-        "dt": 22,
-        "temperature" : {
-            "now": 10,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
-        }
-    },
+
     {
         "dt": 23,
-        "temperature" : {
-            "now": 3,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
-        }
-    },
-    {
-        "dt": 0,
         "temperature" : {
             "now": 2,
             "main": "Rain",
@@ -45,9 +10,18 @@
         }
     },
     {
+        "dt": 0,
+        "temperature" : {
+            "now": -2,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
         "dt": 1,
         "temperature" : {
-            "now": 7,
+            "now": -40,
             "main": "Rain",
             "description": "light rain",
             "icon": "http://openweathermap.org/img/wn/02d@2x.png"
@@ -56,10 +30,65 @@
     {
         "dt": 2,
         "temperature" : {
-            "now": -1,
+            "now": 51,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 3,
+        "temperature" : {
+            "now": 0,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 4,
+        "temperature" : {
+            "now": 10,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 5,
+        "temperature" : {
+            "now": 13,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 6,
+        "temperature" : {
+            "now": 11,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 7,
+        "temperature" : {
+            "now": 11,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "http://openweathermap.org/img/wn/02d@2x.png"
+        }
+    },
+    {
+        "dt": 8,
+        "temperature" : {
+            "now": 11,
             "main": "Rain",
             "description": "light rain",
             "icon": "http://openweathermap.org/img/wn/02d@2x.png"
         }
     }
 ]
+    
